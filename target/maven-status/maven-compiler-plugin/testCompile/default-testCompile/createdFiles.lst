@@ -1,0 +1,7 @@
+com\aman\controller\AssignmentsControllerTest.class
+com\aman\model\AssignmentTest.class
+com\aman\model\TaskTest.class
+com\aman\controller\TasksControllerTest.class
+com\aman\WalsmartTests.class
+com\aman\model\UserTest.class
+com\aman\controller\UsersControllerTest.class

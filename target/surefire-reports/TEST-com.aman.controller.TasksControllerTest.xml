@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aman.controller.TasksControllerTest" time="0.615" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="com.aman.controller.TasksControllerTest#tasksList"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\asriva26\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\Java\apache-maven-3.5.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-10.0.1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Silverfrost\FTN95;C:\Program Files\MATLAB\R2017a\runtime\win64;C:\Program Files\MATLAB\R2017a\bin;C:\Program Files\Java\apache-jena-3.5.0\bat;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-10.0.1;C:\Users\asriva26\AppData\Local\Microsoft\WindowsApps;C:\Users\asriva26\Downloads\g95\bin;C:\Users\asriva26\AppData\Local\GitHubDesktop\app-0.6.2\resources\app\git\cmd;C:\Python27;C:\Users\asriva26\AppData\Local\GitHubDesktop\bin;C:\Program Files\Heroku\bin;C:\Python27\Scripts;C:\Users\asriva26\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Users\asriva26\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\Java\apache-maven-3.5.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Java\apache-maven-3.5.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\asriva26"/>
+    <property name="user.timezone" value="America/Phoenix"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="asriva26"/>
+    <property name="java.class.path" value="C:\Program Files\Java\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.aman.controller.TasksControllerTest#tasksList test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-10.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\Java\apache-maven-3.5.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="tasksList" classname="com.aman.controller.TasksControllerTest" time="0.615">
+    <failure message="Model attribute &apos;tasks&apos;&#10;Expected: a collection with size &lt;4&gt;&#10;     but: collection size was &lt;3&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Model attribute 'tasks'
+Expected: a collection with size <4>
+     but: collection size was <3>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.springframework.test.web.servlet.result.ModelResultMatchers$1.match(ModelResultMatchers.java:58)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at com.aman.controller.TasksControllerTest.tasksList(TasksControllerTest.java:37)
+]]></failure>
+    <system-out><![CDATA[23:02:52.729 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.aman.controller.TasksControllerTest]
+23:02:52.752 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:02:52.762 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:02:52.780 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.aman.controller.TasksControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:02:52.794 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.aman.controller.TasksControllerTest], using SpringBootContextLoader
+23:02:52.798 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.aman.controller.TasksControllerTest]: class path resource [com/aman/controller/TasksControllerTest-context.xml] does not exist
+23:02:52.799 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.aman.controller.TasksControllerTest]: class path resource [com/aman/controller/TasksControllerTestContext.groovy] does not exist
+23:02:52.800 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.aman.controller.TasksControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:02:52.803 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.aman.controller.TasksControllerTest]: TasksControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:02:52.869 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.aman.controller.TasksControllerTest]
+23:02:52.886 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+23:02:52.890 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+23:02:52.891 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+23:02:52.914 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/aman/controller/] to resources [URL [file:/C:/Users/asriva26/Dropbox%20(ASU)/SCORE-2018/GitHub/Walsmart/target/test-classes/com/aman/controller/], URL [file:/C:/Users/asriva26/Dropbox%20(ASU)/SCORE-2018/GitHub/Walsmart/target/classes/com/aman/controller/]]
+23:02:52.914 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\test-classes\com\aman\controller]
+23:02:52.915 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\test-classes\com\aman\controller] for files matching pattern [C:/Users/asriva26/Dropbox (ASU)/SCORE-2018/GitHub/Walsmart/target/test-classes/com/aman/controller/*.class]
+23:02:52.925 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\classes\com\aman\controller]
+23:02:52.925 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\classes\com\aman\controller] for files matching pattern [C:/Users/asriva26/Dropbox (ASU)/SCORE-2018/GitHub/Walsmart/target/classes/com/aman/controller/*.class]
+23:02:52.926 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/aman/controller/*.class] to resources [file [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\test-classes\com\aman\controller\AssignmentsControllerTest.class], file [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\test-classes\com\aman\controller\TasksControllerTest.class], file [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\test-classes\com\aman\controller\UsersControllerTest.class], file [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\classes\com\aman\controller\AssignmentsController.class], file [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\classes\com\aman\controller\TasksController.class], file [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\classes\com\aman\controller\UsersController.class]]
+23:02:53.002 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/aman/] to resources [URL [file:/C:/Users/asriva26/Dropbox%20(ASU)/SCORE-2018/GitHub/Walsmart/target/test-classes/com/aman/], URL [file:/C:/Users/asriva26/Dropbox%20(ASU)/SCORE-2018/GitHub/Walsmart/target/classes/com/aman/]]
+23:02:53.003 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\test-classes\com\aman]
+23:02:53.003 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\test-classes\com\aman] for files matching pattern [C:/Users/asriva26/Dropbox (ASU)/SCORE-2018/GitHub/Walsmart/target/test-classes/com/aman/*.class]
+23:02:53.004 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\classes\com\aman]
+23:02:53.004 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\classes\com\aman] for files matching pattern [C:/Users/asriva26/Dropbox (ASU)/SCORE-2018/GitHub/Walsmart/target/classes/com/aman/*.class]
+23:02:53.007 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/aman/*.class] to resources [file [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\test-classes\com\aman\WalsmartTests.class], file [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\classes\com\aman\Walsmart.class]]
+23:02:53.065 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart\target\classes\com\aman\Walsmart.class]
+23:02:53.068 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.aman.Walsmart for test class com.aman.controller.TasksControllerTest
+23:02:53.072 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.aman.controller.TasksControllerTest]: using defaults.
+23:02:53.078 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+23:02:53.143 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@793f29ff, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3e8c3cb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@563f38c4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@543295b0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@54422e18, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@117159c0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3e27ba32, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7ef82753, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3b0fe47a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@202b0582, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@235ecd9f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1ca3b418]
+23:02:53.149 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.aman.controller.TasksControllerTest]
+23:02:53.150 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.aman.controller.TasksControllerTest]
+23:02:53.161 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.aman.controller.TasksControllerTest]
+23:02:53.162 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:02:53.162 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:02:53.163 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.aman.controller.TasksControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:02:53.164 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.aman.controller.TasksControllerTest], using SpringBootContextLoader
+23:02:53.165 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.aman.controller.TasksControllerTest]: class path resource [com/aman/controller/TasksControllerTest-context.xml] does not exist
+23:02:53.166 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.aman.controller.TasksControllerTest]: class path resource [com/aman/controller/TasksControllerTestContext.groovy] does not exist
+23:02:53.166 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.aman.controller.TasksControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:02:53.166 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.aman.controller.TasksControllerTest]: TasksControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:02:53.187 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.aman.controller.TasksControllerTest]
+23:02:53.188 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+23:02:53.189 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+23:02:53.190 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+23:02:53.190 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.aman.Walsmart for test class com.aman.controller.TasksControllerTest
+23:02:53.194 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.aman.controller.TasksControllerTest]: using defaults.
+23:02:53.204 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+23:02:53.208 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@536f2a7e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@72bc6553, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@66982506, org.springframework.test.context.support.DirtiesContextTestExecutionListener@70cf32e3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5a59ca5e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4bdeaabb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6c4906d3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@65987993, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@71075444, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f32a3ad, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6b695b06, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4d1bf319]
+23:02:53.209 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.aman.controller.TasksControllerTest]
+23:02:53.209 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.aman.controller.TasksControllerTest]
+23:02:53.211 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.aman.controller.TasksControllerTest]
+23:02:53.211 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.aman.controller.TasksControllerTest]
+23:02:53.224 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@338fc1d8 testClass = TasksControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4722ef0c testClass = TasksControllerTest, locations = '{}', classes = '{class com.aman.Walsmart}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@6c40365c, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@70325e14, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2e377400], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+23:02:53.225 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.aman.controller.TasksControllerTest]
+23:02:53.226 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.aman.controller.TasksControllerTest]
+23:02:53.342 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+23:02:53.342 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+23:02:53.342 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+23:02:53.343 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+23:02:53.343 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.3.RELEASE)
+
+2018-04-29 23:02:53.871  INFO 16168 --- [           main] com.aman.controller.TasksControllerTest  : Starting TasksControllerTest on EN4104043 with PID 16168 (started by asriva26 in C:\Users\asriva26\Dropbox (ASU)\SCORE-2018\GitHub\Walsmart)
+2018-04-29 23:02:53.872  INFO 16168 --- [           main] com.aman.controller.TasksControllerTest  : No active profile set, falling back to default profiles: default
+2018-04-29 23:02:54.276  INFO 16168 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6273c5a4: startup date [Sun Apr 29 23:02:54 MST 2018]; root of context hierarchy
+2018-04-29 23:02:56.082  INFO 16168 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$41999e89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-29 23:02:56.861  INFO 16168 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-29 23:02:56.892  INFO 16168 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-29 23:02:56.977  INFO 16168 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2018-04-29 23:02:56.980  INFO 16168 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-04-29 23:02:56.984  INFO 16168 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-04-29 23:02:57.044  INFO 16168 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-29 23:02:57.184  INFO 16168 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-04-29 23:02:57.755  INFO 16168 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2018-04-29 23:02:57.789  INFO 16168 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2018-04-29 23:02:57.836  INFO 16168 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-29 23:02:58.697  INFO 16168 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6273c5a4: startup date [Sun Apr 29 23:02:54 MST 2018]; root of context hierarchy
+2018-04-29 23:02:58.778  INFO 16168 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/assignments],methods=[GET]}" onto public java.lang.String com.aman.controller.AssignmentsController.tasksList(org.springframework.ui.Model)
+2018-04-29 23:02:58.780  INFO 16168 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/updateassignment],methods=[POST]}" onto public java.lang.String com.aman.controller.AssignmentsController.updateAssignment(java.lang.Long,java.lang.String)
+2018-04-29 23:02:58.781  INFO 16168 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/removeassignment],methods=[POST]}" onto public java.lang.String com.aman.controller.AssignmentsController.removeAssignment(java.lang.Long)
+2018-04-29 23:02:58.781  INFO 16168 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/closeassignment],methods=[POST]}" onto public java.lang.String com.aman.controller.AssignmentsController.closeAssignment(java.lang.Long)
+2018-04-29 23:02:58.783  INFO 16168 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/createassignment],methods=[POST]}" onto public java.lang.String com.aman.controller.AssignmentsController.saveAssignment(java.lang.Long,java.lang.Long,java.lang.String)
+2018-04-29 23:02:58.786  INFO 16168 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tasks],methods=[GET]}" onto public java.lang.String com.aman.controller.TasksController.tasksList(org.springframework.ui.Model)
+2018-04-29 23:02:58.786  INFO 16168 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/savetask],methods=[POST]}" onto public java.lang.String com.aman.controller.TasksController.saveTask(com.aman.model.Task)
+2018-04-29 23:02:58.786  INFO 16168 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[GET]}" onto public java.lang.String com.aman.controller.UsersController.usersList(org.springframework.ui.Model)
+2018-04-29 23:02:58.787  INFO 16168 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveuser],methods=[POST]}" onto public java.lang.String com.aman.controller.UsersController.saveUser(com.aman.model.User)
+2018-04-29 23:02:58.793  INFO 16168 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-29 23:02:58.793  INFO 16168 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-29 23:02:58.854  INFO 16168 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 23:02:58.855  INFO 16168 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 23:02:58.909  INFO 16168 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-29 23:02:59.348  INFO 16168 --- [           main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2018-04-29 23:02:59.632  INFO 16168 --- [           main] com.aman.controller.TasksControllerTest  : Started TasksControllerTest in 6.269 seconds (JVM running for 7.422)
+2018-04-29 23:02:59.670  INFO 16168 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2018-04-29 23:02:59.671  INFO 16168 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-04-29 23:02:59.692  INFO 16168 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 21 ms
+2018-04-29 23:02:59.756  INFO 16168 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+]]></system-out>
+  </testcase>
+</testsuite>

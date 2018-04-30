@@ -1,0 +1,10 @@
+com\aman\model\Assignment.class
+com\aman\repository\TaskRepository.class
+com\aman\controller\UsersController.class
+com\aman\model\User.class
+com\aman\repository\UserRepository.class
+com\aman\controller\TasksController.class
+com\aman\controller\AssignmentsController.class
+com\aman\Walsmart.class
+com\aman\repository\AssignmentRepository.class
+com\aman\model\Task.class
