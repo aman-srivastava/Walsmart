@@ -73,10 +73,20 @@ Walsmart>mvn clean install
 Walsmart>mvn -Dtest=com.aman.WalsmartTests test
 
 Walsmart>mvn -Dtest=com.aman.controller.AssignmentsControllerTest test
+Walsmart>mvn -Dtest=com.aman.controller.AssignmentsControllerTest#tasksList test
+Walsmart>mvn -Dtest=com.aman.controller.AssignmentsControllerTest#saveAssignment test
+Walsmart>mvn -Dtest=com.aman.controller.AssignmentsControllerTest#removeAssignment test
+Walsmart>mvn -Dtest=com.aman.controller.AssignmentsControllerTest#closeAssignment test
+Walsmart>mvn -Dtest=com.aman.controller.AssignmentsControllerTest#updateAssignment test
 
 Walsmart>mvn -Dtest=com.aman.controller.TasksControllerTest test
+Walsmart>mvn -Dtest=com.aman.controller.TasksControllerTest#tasksList test
+Walsmart>mvn -Dtest=com.aman.controller.TasksControllerTest#saveTask test
 
 Walsmart>mvn -Dtest=com.aman.controller.UsersControllerTest test
+Walsmart>mvn -Dtest=com.aman.controller.UsersControllerTest#usersList test
+Walsmart>mvn -Dtest=com.aman.controller.UsersControllerTest#saveUser test
+
 ```
 
 ## Application Screenshots
