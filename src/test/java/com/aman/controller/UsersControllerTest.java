@@ -36,7 +36,7 @@ public class UsersControllerTest extends WalsmartTests {
         mockMvc.perform(get("/users")).andExpect(status().isOk())
                 .andExpect(view().name("users"))
                 .andExpect(content().contentType("text/html;charset=UTF-8"))
-                .andExpect(model().attribute("users", hasSize(4)))
+                .andExpect(model().attributeExists("users"))
                 .andExpect(model().attribute("users", hasItem(
                         allOf(
                                 hasProperty("userId", is(1L)),
@@ -59,14 +59,6 @@ public class UsersControllerTest extends WalsmartTests {
                                 hasProperty("firstName", is("Alice")),
                                 hasProperty("lastName", is("Bob")),
                                 hasProperty("userGroup", is("Manager"))
-                        )
-                )))
-                .andExpect(model().attribute("users", hasItem(
-                        allOf(
-                                hasProperty("userId", is(4L)),
-                                hasProperty("firstName", is("Test")),
-                                hasProperty("lastName", is("User")),
-                                hasProperty("userGroup", is("Employee"))
                         )
                 )));
     }

@@ -34,7 +34,7 @@ public class TasksControllerTest extends WalsmartTests {
         mockMvc.perform(get("/tasks")).andExpect(status().isOk())
                 .andExpect(view().name("tasks"))
                 .andExpect(content().contentType("text/html;charset=UTF-8"))
-                .andExpect(model().attribute("tasks", hasSize(4)))
+                .andExpect(model().attributeExists("tasks"))
                 .andExpect(model().attribute("tasks", hasItem(
                         allOf(
                                 hasProperty("taskId", is(1L)),
@@ -57,14 +57,6 @@ public class TasksControllerTest extends WalsmartTests {
                                 hasProperty("taskName", is("Arrange Shelf Items")),
                                 hasProperty("taskPriority", is("Low")),
                                 hasProperty("taskEstimatedTime", is(3L))
-                        )
-                )))
-                .andExpect(model().attribute("tasks", hasItem(
-                        allOf(
-                                hasProperty("taskId", is(4L)),
-                                hasProperty("taskName", is("Test Task")),
-                                hasProperty("taskPriority", is("Medium")),
-                                hasProperty("taskEstimatedTime", is(2L))
                         )
                 )));
     }

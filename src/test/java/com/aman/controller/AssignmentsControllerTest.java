@@ -30,9 +30,9 @@ public class AssignmentsControllerTest extends WalsmartTests {
         mockMvc.perform(get("/assignments")).andExpect(status().isOk())
                 .andExpect(view().name("assignments"))
                 .andExpect(content().contentType("text/html;charset=UTF-8"))
-                .andExpect(model().attribute("tasks", hasSize(3)))
-                .andExpect(model().attribute("users", hasSize(3)))
-                .andExpect(model().attribute("assignments", hasSize(1)));
+                .andExpect(model().attributeExists("tasks"))
+                .andExpect(model().attributeExists("users"))
+                .andExpect(model().attributeExists("assignments"));
     }
 
     @Test
