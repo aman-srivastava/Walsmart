@@ -1,5 +1,6 @@
 package com.aman;
 
+import com.aman.model.Assignment;
 import com.aman.model.User;
 import com.aman.model.Task;
 import com.aman.repository.UserRepository;
@@ -53,6 +54,14 @@ public class Walsmart implements CommandLineRunner {
         userRepository.save(johnDoe);
         userRepository.save(aliceBob);
 
+        Assignment assignment = new Assignment();
+        assignment.setUser(amanSrivastava);
+        assignment.setTask(moveBoxes);
+        assignment.setStatus("Open");
+        assignment.setNotes("");
+        assignment.setDateAssigned(Long.parseLong("1525941863000"));
+        assignment.setDeadline(Long.parseLong("1525941863000")+(taskRepository.findOne(1L).getTaskEstimatedTime()*86400000));
+        assignmentRepository.save(assignment);
     }
 
 

@@ -40,9 +40,9 @@ public class AssignmentsControllerTest extends WalsmartTests {
         mockMvc.perform(post("/createassignment")
                 .param("userId", "1")
                 .param("taskId", "1")
-                .param("date", "1395430135200"))
+                .param("date", "1525941863000"))
                 .andExpect(status().is2xxSuccessful())
-                .andExpect(content().string("1"));
+                .andExpect(content().string("2"));
     }
 
     @Test
