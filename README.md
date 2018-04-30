@@ -57,7 +57,7 @@ http://localhost:8080
 * Select Estimated Completion Time (ETA) for this template task
 * Click 'Create New Task'
 
-### Running Tests:
+## Running Tests:
 
 ### Get Test Summary during installation using Maven:
 * First, navigate to 'Walsmart' folder and build the project as:
