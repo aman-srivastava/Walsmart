@@ -89,15 +89,5 @@ Walsmart>mvn -Dtest=com.aman.controller.UsersControllerTest#saveUser test
 
 ```
 
-## Application Screenshots
-
-![Screenshot_1](http://amansrivastava.me/Content/Walsmart/1.jpg)
-
-![Screenshot_2](http://amansrivastava.me/Content/Walsmart/2.png)
-
-![Screenshot_3](http://amansrivastava.me/Content/Walsmart/3.png)
-
-![Screenshot_4](http://amansrivastava.me/Content/Walsmart/4.png)
-
 
 
